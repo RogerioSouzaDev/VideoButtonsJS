@@ -14,4 +14,4 @@ Made using only HTML, CSS, JS
 
 ATENTION: For running the with no problems you need to substitute the mp4 archive and the video tag in HTML!!!
 
-Feito por Rogerio Franco Souza
+Made by Rogerio Franco Souza
