@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #ccc;
+    background-color: rgb(22, 22, 94);
+    height: 60px;
+}
+
+.div-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(30, 29, 29);
+}
+
+video{
+    width: 70%;
+    height: 70%;
+}
+
+.skip-btn{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(22, 22, 94);
+    color: #ccc;
+    font-size: larger;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px 4px rgb(9, 9, 9);
+}
+
+.skip-btn:active{
+    background-color: rgb(15, 15, 112);
+}
+
+.play-btn{
+    width: 140px;
+    height: 60px;
+    background-color: rgb(22, 22, 94);
+    color: #ccc;
+    font-size:x-large;
+    
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px 4px rgb(9, 9, 9);
+}
+
+.play-btn:active{
+    background-color: rgb(15, 15, 112);
+}
+
+.back-btn{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(22, 22, 94);
+    color: #ccc;
+    font-size: larger;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px 4px rgb(9, 9, 9);
+}
+
+.back-btn:active{
+    background-color: rgb(15, 15, 112);
+}
